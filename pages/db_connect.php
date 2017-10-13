@@ -1,6 +1,6 @@
 <?php
  
-$con = mysqli_connect("edrivenapps.com","levar","lb0315lb","vue_library");
+$con = mysqli_connect("xxxxxx","xxxxxx","xxxxxx,"xxxxxx");
 
 // Check connection
 if (mysqli_connect_errno())
