@@ -4,8 +4,8 @@
  use PHPMailer\PHPMailer\PHPMailer;
  use PHPMailer\PHPMailer\Exception;
 // Your Account SID and Auth Token from twilio.com/console
-$sid = 'ACb8b520af870054c62246a0d08e43451c';
-$token = 'bf5392bbc5ac84ecba978cac5dc4e17a';
+$sid = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx';
+$token = 'xxxxxxxxxxxxxxxxxxxxxx';
 $client = new Client($sid, $token);
 
 //echo var_dump($_SESSION["currentUser"]);
@@ -69,7 +69,7 @@ $pl->playlist_name = "DEMO PLAYLIST";
             $mail->Host = 'smtp.sendgrid.net';
             $mail->SMTPAuth = true;                               // Enable SMTP authentication
             $mail->Username = 'apikey';                 // SMTP username
-            $mail->Password = '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';                           // SMTP password
+            $mail->Password = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx';                           // SMTP password
             $mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
             $mail->Port = 587;                                    // TCP port to connect to
         
